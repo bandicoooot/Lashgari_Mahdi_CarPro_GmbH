@@ -1,0 +1,147 @@
+# =========================
+# OS / Editor
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+# Windows
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Node / Angular
+# =========================
+node_modules/
+dist/
+dist-*/
+build/
+out-tsc/
+.tmp/
+.angular/
+.angular-cache/
+src/environments/environment.*.ts
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+coverage/
+nyc_output/
+cypress/videos/
+cypress/screenshots/
+
+# =========================
+# Python (Flask)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+build/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+venv.bak/
+
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+
+.coverage
+htmlcov/
+
+instance/
+*.db
+*.sqlite
+*.sqlite3
+*.db3
+*.sqlite-shm
+*.sqlite-wal
+
+.env
+.env.*
+secrets.* 
+.env.local
+.local.env
+
+settings.local.py
+config/*.local.py
+
+alembic/tmp/
+alembic/*.pyc
+
+# =========================
+# Database (MySQL / MariaDB)
+# =========================
+# Local database dumps / exports
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.dump
+*.bak
+*.backup
+
+# MySQL client config 
+.my.cnf
+mysql.conf.d/
+
+# Database socket & pid files (
+*.pid
+*.sock
+*.socket
+
+# =========================
+# Build / tooling / CI
+# =========================
+docker-compose.override.yml
+.dockerignore
+
+*~
+*.swp
+*.swo
+
+tmp/
+temp/
+.vscode-test/
+.history/
+reports/
+junit-reports/
+
+# =========================
+# Security / keys
+# =========================
+*.pem
+*.key
+*.crt
+
+# =========================
+# Misc / Optional
+# =========================
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*.ng_build_cache
+.npm/
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
